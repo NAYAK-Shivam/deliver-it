@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  margin-left: auto;
+}
+#gametitle {
+  font-size: 10vh;
+  color: yellowgreen;
+}
+sub {
+  color: #61dafb;
+}
+#dev {
+  color: red;
+}
+.fullscreen-button {
+  background-color: #51c9eb;
+  color: #6f8d46;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fullscreen-button:hover {
+  background-color: #3b8dbd;
+}
+
+.fullscreen-button:active {
+  background-color: #2f6a8f;
+  transform: scale(0.98);
+}
+#desc p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #507dd5;
+  margin: 20px auto;
+  width: 80%;
+  text-align: justify;
+}
+#skills h2 {
+  font-size: 1.5em;
+  color: #e6313d;
+  margin-bottom: 10px;
+}
+#skills ul {
+  list-style-type: disc;
+  margin: 10px auto;
+  padding: 0 20px;
+  width: 80%;
+  text-align: left;
+}
+#skills ul li {
+  font-size: 1.1em;
+  color: rgb(156, 116, 97);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+#skills ul li strong {
+  color: rgb(234, 134, 84);
+}
+header {
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  border: none;
+}
+footer {
+  border: none;
+  color: #6f8d46;
+  background-color: black;
+  font-size: large;
+  padding: 1%;
+}
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
